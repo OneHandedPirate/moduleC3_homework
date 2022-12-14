@@ -1,3 +1,3 @@
 function isPropertyOf(string, obj) {
-    return string in obj;
+    return (string in obj);
 }

@@ -30,7 +30,7 @@ class Lamp extends Device {
     constructor(name, brand, isDimmable, powerConsumption) {
         super(name, powerConsumption);
         this.brand = brand;
-        this.isDimmable = false;
+        this.isDimmable = isDimmable;
     }
 }
 
