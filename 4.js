@@ -15,10 +15,11 @@ Device.prototype.turnOn = function() {
 };
 
 //Device 1
-function TV(name, brand, resolution, powerConsumption) {
+function TV(name, brand, resolution, hasSmartTv, powerConsumption) {
     this.name = name;
     this.brand = brand;
     this.resolution = resolution;
+    this.hasSmartTv = hasSmartTv
     this.powerConsumption = powerConsumption;
 }
 
@@ -34,6 +35,6 @@ function Lamp(name, brand, isDimmable, powerConsumption,) {
 
 Lamp.prototype = new Device();
 
-const myTV = new TV('J6240', 'Samsung', '1080p', 250);
+const myTV = new TV('J6240', 'Samsung', '1080p', true, 250);
 const myLamp = new Lamp('Bedside Lamp 2', 'Xiaomi', true, 50);
 
