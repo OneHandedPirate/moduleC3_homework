@@ -15,6 +15,7 @@ class Device {
     }
 }
 
+//Device 1
 class TV extends Device {
     constructor(name, brand, resolution, hasSmartTv, powerConsumption) {
         super(name, powerConsumption);
@@ -24,6 +25,7 @@ class TV extends Device {
     }
 }
 
+//Device 2
 class Lamp extends Device {
     constructor(name, brand, isDimmable, powerConsumption) {
         super(name, powerConsumption);
