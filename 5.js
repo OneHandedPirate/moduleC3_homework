@@ -36,3 +36,7 @@ class Lamp extends Device {
 
 const myLamp = new Lamp('Bedside Lamp 2', 'Xiaomi', true, 50);
 const myTV = new TV('J6240', 'Samsung', '1080p', true, 250);
+
+myTV.turnOn()
+console.log(myTV)
+console.log(myLamp)
